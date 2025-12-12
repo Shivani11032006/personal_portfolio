@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #0f0f0f;
+    color: #fff;
+}
+
+/* NAVBAR */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+    color: #16ed3e;
+}
+
+nav a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #19f81d;
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+}
+
+.hero-text h1 span{
+    color: #18fa41;
+}
+
+.hero-text p{
+    margin: 15px 0 25px;
+    font-size: 18px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background: #15fe47;
+    color: #000;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #fff;
+}
+
+/* HERO IMAGE */
+.hero-img img{
+    width: 330px;
+    border-radius: 50%;
+    border: 4px solid #26f222;
+}
+
+/* SECTION STRUCTURE */
+.section-title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #15f045;
+}
+
+/* ABOUT */
+.about{
+    padding: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* SKILLS */
+.skills{
+    padding: 60px;
+    text-align: center;
+}
+
+.skill-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.skill{
+    padding: 12px 25px;
+    border: 2px solid #28f121;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.skill:hover{
+    background: #15ed15;
+    color: #000;
+}
+
+/* PROJECTS */
+.projects{
+    padding: 60px;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.project-card{
+    padding: 20px;
+    background: #1a1a1a;
+    border-left: 4px solid #0bf336;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+}
+
+/* CONTACT */
+.contact{
+    padding: 60px;
+    text-align: center;
+}
+
+.contact-info p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    margin-top: 40px;
+}
